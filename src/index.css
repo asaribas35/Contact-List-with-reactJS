@@ -20,6 +20,6 @@ code {
 
 .listBody{
   background-color: aliceblue;
-  height: 23rem;
+  min-height: 23rem;
   margin-bottom: 1rem;
 }
