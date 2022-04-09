@@ -1,10 +1,12 @@
 import React from "react"
 import { useState } from "react"
+
 import axios from "axios"
 
 import Search from "./components/search"
 import ListBody from "./components/listbody"
 import Add from "./components/add"
+
 
 
 function App() {
@@ -44,8 +46,11 @@ function App() {
     
 
   return (
-
+    
     <>
+    
+      
+
       <div className="container-fluid col-lg-10">
         <div className="container-fluid col-lg-10">
           <h1 >Contact List App</h1>
@@ -60,7 +65,9 @@ function App() {
 
          </div>
       </div>
+
     </>
+    
  );
 }
 
