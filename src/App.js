@@ -46,9 +46,9 @@ function App() {
   return (
 
     <>
-      <div className="container-fluid">
-        <div className="container-fluid">
-          <h1>Contact List App</h1>
+      <div className="container-fluid col-lg-10">
+        <div className="container-fluid col-lg-10">
+          <h1 >Contact List App</h1>
           <br/>
 
 

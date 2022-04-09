@@ -26,14 +26,14 @@ return(
   {
   filterList
     .map((user, i) => (
-      <div className="card">
+      <div className="card ">
         
       
     <div key={i} className="row card-body ">
 
-        <div className="col-5 px-4 text-center">{user.name}   </div>
-        <div className="col-5 px-4 text-center">{user.number}  </div>
-        <div className="col-2 text-center"><button type="button" onClick={deleteItem} className="btn btn-primary btn-sm" value={user.name} >Delete</button></div>
+        <div className="col-5  px-4 text-center">{user.name}   </div>
+        <div className="col-5  px-4 text-center">{user.number}  </div>
+        <div className="col-2  text-center"><button type="button" onClick={deleteItem} className="btn btn-primary btn-sm" value={user.name} >Delete</button></div>
          
         
     </div>
