@@ -24,13 +24,9 @@ function listToDo({ setItems,items }) {
         if( newItems[index].bool==false){
             newItems[index].bool = true
 
-            document.getElementById(newItems[index].input).classList.add("overlineText")
-
-        }else{
+         }else{
             newItems[index].bool = false
-
-            document.getElementById(newItems[index].input).classList.remove("overlineText")
-        }
+          } 
          setItems(newItems)
 
         
@@ -44,7 +40,12 @@ function listToDo({ setItems,items }) {
                         <div className="card-body">
                             <div className='row'>
                                     <div className='col-1 col-lg-1' ><input onChange={checkHandler} className="form-check-input" type="checkbox" value={i} id="defaultCheck1" checked={item.bool} /></div>
-                                     <div className='col-9 col-lg-9 ' id={item.input} >{item.input}</div>
+
+                                    {item.bool
+                                    ? <div className='col-9 col-lg-9 overlineText' id={item.input} >{item.input}</div>
+                                    : <div className='col-9 col-lg-9 ' id={item.input} >{item.input}</div>
+                                     }
+
                                      <div className='col-2 col-lg-2'><button onClick={deleteHandler} type="button" value={item.input} className="btn btn-danger btn-sm">X</button></div>
                             </div>
  
