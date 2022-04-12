@@ -43,9 +43,9 @@ function listToDo({ setItems,items }) {
                     <div key={i} className="card ">
                         <div className="card-body">
                             <div className='row'>
-                                    <div className='col-lg-1' ><input onChange={checkHandler} className="form-check-input" type="checkbox" value={i} id="defaultCheck1" checked={item.bool} /></div>
-                                     <div className='col-lg-9 ' id={item.input} >{item.input}</div>
-                                     <div className='col-lg-2'><button onClick={deleteHandler} type="button" value={item.input} className="btn btn-danger btn-sm">X</button></div>
+                                    <div className='col-1 col-lg-1' ><input onChange={checkHandler} className="form-check-input" type="checkbox" value={i} id="defaultCheck1" checked={item.bool} /></div>
+                                     <div className='col-9 col-lg-9 ' id={item.input} >{item.input}</div>
+                                     <div className='col-2 col-lg-2'><button onClick={deleteHandler} type="button" value={item.input} className="btn btn-danger btn-sm">X</button></div>
                             </div>
  
                         </div>

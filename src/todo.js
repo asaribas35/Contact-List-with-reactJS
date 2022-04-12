@@ -10,7 +10,7 @@ function todo() {
 
   return (
       <>
-        <div className="container col-lg-4 mt-3">
+        <div className="container col-md-10 col-lg-4 mt-3">
           
           <AddToDo setItems={setItems} items={items}/>
           <ListToDo setItems={setItems} items={items}/>
