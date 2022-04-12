@@ -26,10 +26,10 @@ return(
   {
   filterList
     .map((user, i) => (
-      <div className="card ">
+      <div key={i} className="card ">
         
       
-    <div key={i} className="row card-body ">
+    <div  className="row card-body ">
 
         <div className="col-5  px-4 text-center">{user.name}   </div>
         <div className="col-5  px-4 text-center">{user.number}  </div>

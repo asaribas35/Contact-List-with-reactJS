@@ -1,5 +1,5 @@
 import React from "react"
-import { useState } from "react"
+import { useState ,useEffect} from "react"
 
 import axios from "axios"
 
@@ -14,7 +14,13 @@ function App() {
   const [number, setNumber] = useState()
   const [list, setList] = useState([])
   const [filterList, setFilterList] = useState(list)
-  const [apiCt , setApiCt] = useState(0)
+  
+
+  useEffect(()=>{
+    getData()
+  },[])
+  
+  
 
   async function getData(){
 
@@ -39,7 +45,7 @@ function App() {
        
   }
 
-  (apiCt==0 && getData())
+
  
 
     

@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './navbar'
+import Navbar from './components/navbar'
 import { Routes, Route} from "react-router-dom";
-import App from '../App';
+import App from './App';
 import Todo from './todo';
 
 function home() {

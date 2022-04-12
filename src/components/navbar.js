@@ -4,20 +4,20 @@ const navbar = () => {
   return (
     <>
     
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container">
 
-    <a class="navbar-brand" >Ali Sarıbaş</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <a className="navbar-brand" >Ali Sarıbaş</a>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
+  <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li className="nav-item active">
       <Link className='nav-link' to="/">Contact List App</Link>
       </li>
-      <li class="nav-item">
+      <li className="nav-item">
         <Link className='nav-link' to="/todo">ToDoApp</Link>
       </li>
 

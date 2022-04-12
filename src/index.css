@@ -23,3 +23,8 @@ code {
   min-height: 23rem;
   margin-bottom: 1rem;
 }
+
+.overlineText{
+  text-decoration: line-through;
+  font-style: italic;
+}
