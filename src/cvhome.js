@@ -47,7 +47,7 @@ function cvhome() {
 
       <div className='row'>
       <div className='col-1'><i class="fa-brands fa-linkedin"></i></div>
-        <div className='col-9'><a href='https://www.linkedin.com/in/ali-sar%C4%B1ba%C5%9F-266823110/'><p>https://www.linkedin.com/in/ali-sar%C4%B1ba%C5%9F-266823110/</p></a> </div>
+        <div className='col-9'><a href='https://www.linkedin.com/in/alisaribash35/'><p>https://www.linkedin.com/in/alisaribash35/</p></a> </div>
         
       </div>
 
