@@ -38,4 +38,9 @@ a{
   text-decoration : none;
 }
 
-
+h2{
+  color: #1f4060;
+}
+h5{
+  font-weight: bold;
+}

@@ -1,0 +1,54 @@
+{
+    "data" : [
+        {
+            "title" : "Personal Website",
+            "description" : [
+                "It is a web application that contains my personal information and small projects. The clone of my CV is on the site.",
+                "It has contact list and todo applications. ",
+                "Fully responsive design",
+                "Technologies used: HTML, CSS, Bootstrap5, React",
+                "https://asvidecontact-demo.herokuapp.com/",
+                "https://github.com/asaribas35/Contact-List-with-reactJS"
+            ]
+        },
+        {
+            "title" : "Wild Heroes Game with Java (Self Activity)",
+            "description" : [
+                "A simple war game written in the Java programming language. My goal was to improve my Java and OOP skills.",
+                "https://github.com/asaribas35/Wild-Heroes-Console- Game"
+            ]
+        },
+        {
+            "title" : "Online Assesment (Self Activity)",
+            "description" : [
+                "It is a simple online quiz application based on React. I did my front- end skills to improve my skills.",
+                "https://github.com/asaribas35/onlineassesment"
+            ]            
+        },
+        {
+            "title" : "To Do List (Self Activity)",
+            "description" : [
+                "A simple React-based to do list app. Its purpose is to improve my react capabilities.",
+                "With VanillaJS : https://github.com/asaribas35/to-do-list-vanillaJS",
+                "With React : https://github.com/asaribas35/to-do"
+            ]               
+        },
+        {
+            "title" : "Market Project (School)",
+            "description" : [
+                "I use C programming language in this Project.Includes functions such as product purchase and sales, stock control."
+
+            ]
+        },
+        {
+            "title" : "Car Park (School)",
+            "description" : [
+                "C# language was used in this project. C # form, entitiy framework linq and mysql database were used. Keeping records of vehicles entering and leaving the car park, current vehicle capacity, fee calculation when leaving."
+
+            ]
+        }
+    ]
+}
+
+
+

@@ -11,7 +11,7 @@ function todo() {
   return (
       <>
         <div className="container col-md-10 col-lg-4 mt-3">
-          
+          <h2 className='mb-4'>To Do List</h2>
           <AddToDo setItems={setItems} items={items}/>
           <ListToDo setItems={setItems} items={items}/>
           
