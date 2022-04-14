@@ -3,7 +3,7 @@ import image from '../src/sonp2.jpg'
 import '../node_modules/font-awesome/css/font-awesome.min.css'
 import Cvskills from './components/cvskills'
 import Cvprojects from './components/cvprojects'
-
+import Cvfooter from './components/cvfooter'
 
 function cvhome() {
   return (
@@ -98,7 +98,9 @@ function cvhome() {
 
       {/* section2 */}
       <hr></hr>
-
+      {/* section3 */}
+      <Cvfooter />
+      {/* section3 */}
     </>
   )
 }

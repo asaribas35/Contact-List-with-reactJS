@@ -4,7 +4,7 @@ const navbar = () => {
   return (
     <>
     
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
+<nav className="navbar navbar-expand-md navbar-dark bg-dark ">
     <div className="container">
 
     <Link className='navbar-brand' to="/">Ali Sarıbaş</Link>
