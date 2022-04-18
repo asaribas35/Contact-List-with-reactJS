@@ -1,0 +1,41 @@
+{
+    "info" : [
+    {
+        "line" : [
+            {
+                "img" : "fa-solid fa-envelope",
+                "data" : "alisaribash35@gmail.com",
+                "href" : "mailto:alisaribash35@gmail.com"
+            },
+            {
+                "img" : "fa-solid fa-phone",
+                "data" : "+90 554 721 71 82",
+                "href" : "#"
+            }
+        ]
+    },
+    {
+        "line" : [
+            {
+                "img" : "fa-solid fa-house",
+                "data" : "İzmir,Türkiye",
+                "href" : "#"
+            },
+            {
+                "img" : "fa-brands fa-linkedin",
+                "data" : "https://www.linkedin.com/in/alisaribash35/",
+                "href" : "https://www.linkedin.com/in/alisaribash35/"
+            }
+        ]        
+    },
+    {
+        "line" : [
+            {
+                "img" : "fa-brands fa-github",
+                "data" : "github.com/asaribas35",
+                "href" : "https://github.com/asaribas35"
+            }
+        ]        
+    }
+]
+}

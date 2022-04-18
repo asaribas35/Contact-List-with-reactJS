@@ -4,6 +4,7 @@ import '../node_modules/font-awesome/css/font-awesome.min.css'
 import Cvskills from './components/cvskills'
 import Cvprojects from './components/cvprojects'
 import Cvfooter from './components/cvfooter'
+import Cvinfo from './components/cvinfo'
 
 function cvhome() {
   return (
@@ -23,46 +24,8 @@ function cvhome() {
       <hr></hr>
       <div className='container'>
         <div className='row'>
-          <div className='row'>
-            <div className='col-12 col-sm-6'>
-              <div className='row'>
-                <div className='col-1'><i className="fa-solid fa-envelope"></i></div>
-                <div className='col-9'><a href='mailto:alisaribash35@gmail.com'><p>alisaribash35@gmail.com</p></a> </div>
-              </div>
-            </div>
-            <div className='col-12 col-sm-6'>
-              <div className='row'>
-                <div className='col-1'><i className="fa-solid fa-phone"></i></div>
-                <div className='col-9'><p>554 721 71 82</p></div>
-              </div>
-            </div>
-          </div>
-          <div className='row'>
-            <div className='col-12 col-sm-6'>
-              <div className='row'>
-                <div className='col-1'><i className="fa-solid fa-house"></i></div>
-                <div className='col-9'><p>İzmir,Türkiye</p></div>
-              </div>
-            </div>
-            <div className='col-12 col-sm-6'>
-              <div className='row'>
-                <div className='col-1'><i className="fa-brands fa-linkedin"></i></div>
-                <div className='col-9'><a href='https://www.linkedin.com/in/alisaribash35/'><p>https://www.linkedin.com/in/alisaribash35/</p></a> </div>
-              </div>
-            </div>
-          </div>
-          <div className='row'>
-            <div className='col-12 col-sm-6'>
-              <div className='row'>
-                <div className='col-1'><i className="fa-brands fa-github"></i></div>
-                <div className='col-9'><a href='https://github.com/asaribas35'><p>github.com/asaribas35</p></a></div>
-              </div>
-            </div>
-            <div className='col-12 col-sm-6'>
-              {/* // site link */}
-            </div>
-          </div>
-
+        
+        <Cvinfo />
 
 
         </div>
@@ -101,6 +64,7 @@ function cvhome() {
       {/* section3 */}
       <Cvfooter />
       {/* section3 */}
+      <hr></hr>
     </>
   )
 }
