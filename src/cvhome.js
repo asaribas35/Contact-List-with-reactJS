@@ -17,7 +17,7 @@ function cvhome() {
           <div className='col-4'>
             <div className='row'><h2>Ali Sarıbaş</h2> </div>
             <div className='row'><h6>Computer Engineer</h6> </div>
-            <div className='row'><p>New Graduated</p> </div>
+            
           </div>
         </div>
       </div>
@@ -46,8 +46,9 @@ function cvhome() {
         <div className='row mt-4'>
         <div className='col-12 col-sm-6'>
             <h2>WORK EXPERIENCE</h2>
-            <h5>Intern</h5>
-            <p>Probel/Izmir</p>
+
+            <h5>Full Time Job</h5>
+            <p>Erdemir   (2022-Now) </p> 
           </div>
           <div className='col-12 col-sm-6'>
             <Cvprojects />
